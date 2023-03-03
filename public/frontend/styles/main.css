@@ -1,0 +1,191 @@
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+.btn-navbar-right {
+  margin-top: auto !important;
+  height: 70px;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #040404;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #040404 !important;
+}
+
+.btn-login {
+  border-radius: 6px;
+  height: auto;
+  background-color: #471d8a;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #3f1d75;
+  color: #fff;
+}
+
+.section-ticket {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.section-ticket .section-ticket-heading h4 {
+  color: #3f1d75;
+}
+.section-ticket .section-ticket-heading h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.section-ticket-content .section-ticket-concert .card-ticket {
+  min-height: 380px;
+  background: #fff;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.section-ticket-content .section-ticket-concert .card-ticket .ticket-date {
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+}
+.section-ticket-content .section-ticket-concert .card-ticket .ticket-name {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+}
+.section-ticket-content .section-ticket-concert .card-ticket .ticket-country {
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+}
+.section-ticket-content .section-ticket-concert .card-ticket .ticket-location {
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+}
+.section-ticket-content .section-ticket-concert .card-ticket .ticket-button .btn-concert-details {
+  background-color: #3f1d75;
+  color: #fff;
+}
+.section-ticket-content .section-ticket-concert .card-ticket .ticket-button .btn-concert-details:hover {
+  color: #fff;
+}
+
+.section-footer a {
+  color: #3f1d75;
+}
+
+.section-details-header {
+  min-height: 210px;
+  margin-top: 30px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #3f1d75;
+}
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+.section-details-content .card-details h1 {
+  font-size: 26px;
+  color: #3f1d75;
+}
+.section-details-content .card-details h2 {
+  font-size: 20px;
+  color: #3f1d75;
+}
+.section-details-content .card-details p {
+  font-size: 18px;
+}
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 2px solid #1abc9c;
+  box-shadow: none;
+}
+.section-details-content .features {
+  margin-top: 20px;
+}
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #3f1d75;
+  margin-bottom: 0;
+}
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+.section-details-content .btn-join-now {
+  background-color: #471d8a;
+  color: #fff;
+  border-radius: 0;
+}
+.section-details-content .btn-join-now:hover {
+  color: #3f1d75;
+}
+
+.section-success {
+  height: 90vh;
+}
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #471d8a;
+}
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #471d8a;
+  color: #fff;
+}
+.section-success .btn-home-page:hover {
+  background-color: #3f1d75;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */

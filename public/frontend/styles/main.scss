@@ -1,0 +1,234 @@
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+.btn-navbar-right {
+  margin-top: auto !important;
+  height: 70px;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #040404;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #040404 !important;
+}
+
+.btn-login {
+  border-radius: 6px;
+  height: auto;
+  background-color: #471d8a;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #3f1d75;
+  color: #fff;
+}
+
+.section-ticket {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  .section-ticket-heading {
+    h4 {
+      color: #3f1d75;
+    }
+
+    h4 {
+      font-family: "Playfair Display", serif;
+      font-weight: bold;
+    }
+  }
+}
+
+.section-ticket-content {
+  .section-ticket-concert {
+    .card-ticket {
+      min-height: 380px;
+      background: #fff;
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+
+      .ticket-date {
+        font-size: 16px;
+        text-align: left;
+        color: #fff;
+      }
+
+      .ticket-name {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+      }
+
+      .ticket-country {
+        font-size: 14px;
+        text-align: left;
+        color: #fff;
+      }
+
+      .ticket-location {
+        font-size: 14px;
+        text-align: left;
+        color: #fff;
+      }
+
+      .ticket-button {
+        .btn-concert-details {
+          background-color: #3f1d75;
+          color: #fff;
+
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section-footer {
+  a {
+    color: #3f1d75;
+  }
+}
+
+.section-details-header {
+  min-height: 210px;
+  margin-top: 30px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #3f1d75;
+    }
+  }
+
+  .card-details {
+    padding: 30px;
+    border-radius: 11px;
+
+    h1 {
+      font-size: 26px;
+      color: #3f1d75;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #3f1d75;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
+  }
+
+  .gallery {
+    .xzoom-container {
+      display: block;
+
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+      }
+
+      .xactive {
+        border: 2px solid #1abc9c;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .features {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #3f1d75;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .features-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
+
+  .join-container {
+    margin-top: -16px;
+  }
+
+  .btn-join-now {
+    background-color: #471d8a;
+    color: #fff;
+    border-radius: 0;
+
+    &:hover {
+      color: #3f1d75;
+    }
+  }
+}
+
+.section-success {
+  height: 90vh;
+
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #471d8a;
+  }
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #471d8a;
+    color: #fff;
+
+    &:hover {
+      background-color: #3f1d75;
+      color: #fff;
+    }
+  }
+}
